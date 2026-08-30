@@ -1,4 +1,4 @@
-# Kredit - Customer Credit & Payment Ledger (Khata)
+# Kredit - Customer Credit & Payment Ledger 
 
 **Kredit** is a modern, lightweight, and offline-first credit records and customer ledger web application designed for small business owners, retail shopkeepers, freelancers, and individuals. It replaces traditional paper credit notebooks ("khata books") with an intuitive digital ledger that tracks credit given, payments collected, real-time customer balances, and an immutable, transparent audit trail.
 
