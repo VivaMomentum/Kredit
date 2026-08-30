@@ -60,3 +60,4 @@
 - [x] Created `app.js` with data storage engine, balance calculation, customer directory, dual-transaction workflows, audit trail logger, reminder generator, statement printable generator, and sample data loader.
 - [x] Created comprehensive `README.md` and `journal.md`.
 - [x] Verified zero CSS variables and code integrity.
+- [x] Initialized Git repository on `main` branch, linked remote `https://github.com/VivaMomentum/Kredit.git`, and pushed all files to GitHub.
