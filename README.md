@@ -10,7 +10,7 @@
 - **Service Providers & Freelancers**: Record billable services extended on credit and client payments.
 - **Individuals & Personal Lenders**: Keep accurate records of personal loans, informal credit, and mutual debts with friends or colleagues.
 
----
+
 
 ##  The Problem It Solves
 1. **Lost & Inaccurate Paper Records**: Paper ledgers get lost, torn, or have calculation errors when computing rolling balances.
@@ -18,7 +18,7 @@
 3. **Slow Follow-ups & Debt Recovery**: Business owners often forget to follow up or struggle to draft clear payment reminders and account statements for customers.
 4. **Complexity of Heavy Accounting Tools**: Complex ERPs (e.g. QuickBooks, SAP) are overkill for simple "How much credit" vs "How much him pay" workflows.
 
----
+
 
 ##  Key Features
 - **Core Dual-Action Recording**:
@@ -44,7 +44,7 @@
   - Full JSON backup export and import/restore capability to protect data across devices.
   - Realistic built-in sample demo data for instant testing and onboarding.
 
----
+
 
 ##  Technologies & Tools Used
 - **HTML5**: Semantic document structure, modal dialogs, accessible form controls, and print containers.
@@ -59,7 +59,7 @@
   - LocalStorage manager with error handling and fallback defaults.
   - Dynamic DOM rendering and event delegation for responsive performance.
 
----
+
 
 ## Important Architectural & Design Decisions
 1. **Dedicated Audit Trail vs. Silent Edits**:
@@ -71,7 +71,7 @@
 4. **Data Portability First**:
    - Built-in JSON export/import gives users full ownership of their data, enabling easy backup and migration without vendor lock-in.
 
----
+
 
 ## Challenges & Solutions
 
@@ -82,7 +82,7 @@
 | **Accurate Running Balances** | Implemented a chronologically sorted balance calculator that handles credit additions, payment subtractions, and soft-deleted records without corrupting the historical sequence. |
 | **Statement Printing Artifacts** | Designed print-specific CSS (`@media print`) that removes web navigation, header bars, and modal backdrops, rendering a clean black-and-white statement card for crisp physical printouts or PDF downloads. |
 
----
+
 
 ##  How to Run Locally
 1. Clone or download this directory:
