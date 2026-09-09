@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Target Audience
+## Target Audience
 - **Retail & Grocery Store Owners**: Track customers taking goods on credit and partial cash/transfer repayments.
 - **Wholesalers & Distributors**: Manage outstanding receivables, invoice references, and customer credit limits.
 - **Service Providers & Freelancers**: Record billable services extended on credit and client payments.
@@ -12,7 +12,7 @@
 
 ---
 
-## 💡 The Problem It Solves
+##  The Problem It Solves
 1. **Lost & Inaccurate Paper Records**: Paper ledgers get lost, torn, or have calculation errors when computing rolling balances.
 2. **Lack of Modification Accountability**: Disputed debts often arise when entries are altered or crossed out without proof or reasons.
 3. **Slow Follow-ups & Debt Recovery**: Business owners often forget to follow up or struggle to draft clear payment reminders and account statements for customers.
@@ -20,7 +20,7 @@
 
 ---
 
-## ⚡ Key Features
+##  Key Features
 - **Core Dual-Action Recording**:
   - **"How much credit?"** (`+ Give Credit`): Record items, goods, or cash given on credit with optional promised repayment due dates.
   - **"How much him pay?"** (`+ Receive Payment`): Record partial or full repayments with payment method (Cash, Bank Transfer, POS/Card, Mobile Money, etc.).
@@ -46,7 +46,7 @@
 
 ---
 
-## 🛠️ Technologies & Tools Used
+##  Technologies & Tools Used
 - **HTML5**: Semantic document structure, modal dialogs, accessible form controls, and print containers.
 - **Vanilla CSS3**:
   - High-performance, bespoke styling.
@@ -61,7 +61,7 @@
 
 ---
 
-## 🏛️ Important Architectural & Design Decisions
+## Important Architectural & Design Decisions
 1. **Dedicated Audit Trail vs. Silent Edits**:
    - Rather than silently updating transaction values in place, every modification or deletion captures the old snapshot, the new snapshot, a timestamp, and a mandatory user reason. This preserves trust between business owners and staff.
 2. **Simplified Two-Button Core UX**:
@@ -73,7 +73,7 @@
 
 ---
 
-## 🧩 Challenges & Solutions
+## Challenges & Solutions
 
 | Challenge | Solution |
 | :--- | :--- |
@@ -84,7 +84,7 @@
 
 ---
 
-## 🚀 How to Run Locally
+##  How to Run Locally
 1. Clone or download this directory:
    ```bash
    git clone https://github.com/VivaMomentum/Kredit.git
